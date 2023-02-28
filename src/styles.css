@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar {
+  width: 30%;
+  background-color: aquamarine;
+  height: 100%;
+  max-height: 90%;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-bar > .item {
+  border-style: solid;
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 2px;
+  border-color: black;
+  color: blueviolet;
+}
+
+.components {
+  width: 70%;
+  text-align: center;
+  background-color: lavender;
+  margin: 2px;
+}
